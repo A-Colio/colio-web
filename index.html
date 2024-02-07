@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <div class="nav">
+                <a href="" class="logo"><img src="/assets/en-colio.png" alt="" /></a>
+                <div class="nav-item">
+                    <ul>
+                        <li class="nav-items"><a href="#">Introduction</a></li>
+                        <li class="nav-items"><a href="#">Our Work</a></li>
+                        <li class="nav-items"><a href="#">In-dev</a></li>
+                        <li class="nav-items"><a href="#">History</a></li>
+                        <li class="nav-items">
+                            <a href="#"
+                                ><div class="dropdown">
+                                    Members
+                                    <ul class="dropdown-list">
+                                        <li class="dropdown-list-item">준석</li>
+                                        <li class="dropdown-list-item">병준</li>
+                                        <li class="dropdown-list-item">연</li>
+                                        <li class="dropdown-list-item">다은</li>
+                                        <li class="dropdown-list-item">유승</li>
+                                        <li class="dropdown-list-item">그리고 나</li>
+                                    </ul>
+                                </div></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-signup"><a href="#">Log-in / Sign-Up</a></div>
+            </div>
+        </nav>
+        <script>
+            document.querySelector('.dropdown').addEventListener('click', () => {
+                document.querySelector('.dropdown-list').classList.toggle('show');
+            });
+        </script>
+    </body>
+</html>
